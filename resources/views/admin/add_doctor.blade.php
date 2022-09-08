@@ -44,7 +44,7 @@
 
         @include('admin.navbar')
 
-        <div class="container-fluid page-body-wrapper">
+        <div class="container-fluid page-body-wrapper" style="background-color: #850870;">
 
             <div class="container" align="center" style="padding-top: 100px;">
 
