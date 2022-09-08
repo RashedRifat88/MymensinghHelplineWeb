@@ -102,8 +102,8 @@
           </div>
 
           <div style="padding: 15px">
-            <label>New Image</label>
-            <input type="file" style="color: white; border-radius: 0px;" name="file" required>
+            <label>Change Image</label>
+            <input type="file" style="color: white; border-radius: 0px;" name="file" >
           </div>
 
           <div style="padding: 15px">

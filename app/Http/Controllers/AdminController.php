@@ -88,9 +88,14 @@ class AdminController extends Controller
 
 
 
-    public function editDoctor($id, $request)
+    public function editDoctor(Request $request, $id)
     {
-        $data = Doctor::find($id);
+        $doctor = Doctor::find($id);
+
+        $doctor->name = $request->name;
+        // $doctor->nam = $request->name;
+        // $doctor->nam = $request->name;
+        // $doctor->nam = $request->name;
 
         // return view('admin.update_doctor', compact('data'));
     }
