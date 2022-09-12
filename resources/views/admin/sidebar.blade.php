@@ -1,11 +1,11 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
   <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-    <a class="sidebar-brand brand-logo" href="index.html"><img src="admin/assets/images/logo.svg" alt="logo" /></a>
-    <a class="sidebar-brand brand-logo-mini" href="index.html"><img src="admin/assets/images/logo-mini.svg" alt="logo" /></a>
+    <a class="sidebar-brand brand-logo" href="index.html"><img src="{{ asset('common_images/logo.jpeg')}}" alt="logo" /></a>
+    <a class="sidebar-brand brand-logo-mini" href="index.html"><img src="{{ asset('common_images/logo.jpeg')}}" alt="logo" /></a>
   </div>
   <ul class="nav">
     <li class="nav-item profile">
-      <div class="profile-desc">
+      <!-- <div class="profile-desc">
         <div class="profile-pic">
           <div class="count-indicator">
             <img class="img-xs rounded-circle " src="admin/assets/images/faces/face15.jpg" alt="">
@@ -51,7 +51,7 @@
             </div>
           </a>
         </div>
-      </div>
+      </div> -->
     </li>
     <li class="nav-item nav-category">
       <span class="nav-link">Navigation</span>

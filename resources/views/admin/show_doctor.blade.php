@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    @include('admin.css')
+  @include('admin.css')
 </head>
 
 <body>
-    <div class="container-scroller">
-        <!-- <div class="row p-0 m-0 proBanner" id="proBanner">
+  <div class="container-scroller">
+    <!-- <div class="row p-0 m-0 proBanner" id="proBanner">
       <div class="col-md-12 p-0 m-0">
         <div class="card-body card-body-padding d-flex align-items-center justify-content-between">
           <div class="ps-lg-1">
@@ -25,18 +25,17 @@
         </div>
       </div>
     </div> -->
-        <!-- partial:partials/_sidebar.html -->
+    <!-- partial:partials/_sidebar.html -->
 
-        @include('admin.sidebar')
+    @include('admin.sidebar')
 
-        @include('admin.navbar')
+    @include('admin.navbar')
 
-        <!-- partial -->
-        <div class="container-fluid page-body-wrapper" style="background-color: #d1dbeb;">
+    <!-- partial -->
+    <!-- <div class="container-fluid page-body-wrapper" style="background-color: #d1dbeb;">
 
             <div align="center" style="padding:80px;">
 
-                <!-- <table style="border-collapse:separate; border-radius: 4px;">   -->
                 <table style="border-radius: 4px;">  
 
                     <tr style="background-color: #000000;" align="center">
@@ -71,13 +70,73 @@
 
             </div>
 
+        </div> -->
+    <div class="main-panel">
+      <div class="content-wrapper">
+        <div class="page-header">
+          <h3 class="page-title"> Doctor Tables </h3>
         </div>
+        <div class="row">
 
-        <!-- page-body-wrapper ends -->
+          <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+               
+                <div class="table-responsive">
+                  <table class="table" >
+                    <thead>
+                      <tr>
+                        <th style="color:white;">Doctor Name</th>
+                        <th style="color:white;">Phone</th>
+                        <th style="color:white;">Speciality</th>
+                        <th style="color:white;">Room No</th>
+                        <th style="color:white;">Image</th>
+                        <th style="color:white;">Delete</th>
+                        <th style="color:white;">Update</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      @foreach ($data as $doctor)
+
+                      <tr >
+
+                        <td>{{ $doctor->name }}</td>
+                        <td>{{ $doctor->phone }}</td>
+                        <td>{{ $doctor->speciality }}</td>
+                        <td>{{ $doctor->room }}</td>
+                        <td><img height="100 px" width="100 px" src="doctor_image/{{ $doctor->image }}"> </td>
+                        <td><a class="btn btn-danger" onclick="return confirm('Are you sure to delete this?')" href="{{url('delete_doctor', $doctor->id)}}">Delete</a></td>
+                        <td><a class="btn btn-primary" href="{{url('update_doctor', $doctor->id)}}">Update</a></td>
+
+                      </tr>
+
+                      @endforeach
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- content-wrapper ends -->
+      <!-- partial:../../partials/_footer.html -->
+      <footer class="footer">
+        <div class="d-sm-flex justify-content-center justify-content-sm-between">
+        <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © mymensinghhelpline.com 2022</span>
+              <!-- <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap admin template</a> from Bootstrapdash.com</span> -->
+        </div>
+      </footer>
+      <!-- partial -->
     </div>
-    <!-- container-scroller -->
 
-    @include('admin.script')
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+  @include('admin.script')
 
 </body>
 
