@@ -15,6 +15,9 @@ class AdminController extends Controller
 
     public function uploadDoctor(Request $request)
     {
+
+        // return $request->all();
+
         $doctor = new Doctor();
 
         $image = $request->file;
@@ -24,10 +27,23 @@ class AdminController extends Controller
 
         $doctor->name = $request->name;
         $doctor->phone = $request->phone;
-        $doctor->room = $request->room;
         $doctor->speciality = $request->speciality;
+        $doctor->bmdc_no = $request->bmdc_no;
+        $doctor->degree = $request->degree;
+        $doctor->fee = $request->fee;
+        $doctor->experience = $request->experience;
+        $doctor->hospital = $request->hospital;
+        $doctor->room = $request->room;
+        // $doctor->available_days = implode(",",$request->available_days);;
+        $doctor->available_days = $request->available_days;
+    
+
+        // $input = $request->all();
+        // $input['category'] = $request->input('category');
+       
 
         $doctor->save();
+        
         return redirect()->back()->with('message', 'Doctor added successfully');
     }
 

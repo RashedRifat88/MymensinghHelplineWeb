@@ -30,10 +30,26 @@ class HomeController extends Controller
     public function index()
     {
         if (Auth::id()) {
-            return redirect('home');
+            if (Auth::user()->user_type == '0') {
+
+                $doctors = Doctor::all();
+                return view('user.home', compact('doctors'));
+            } else {
+
+                return view('admin.home');
+            }
         } else {
             $doctors = Doctor::all();
             return view('user.home', compact('doctors'));
+        }
+    }
+
+    public function index_login()
+    {
+        if (Auth::id()) {
+            return redirect()->route('home');
+        } else {
+            return view('auth.login');
         }
     }
 

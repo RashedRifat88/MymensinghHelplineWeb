@@ -19,8 +19,11 @@ use App\Http\Controllers\AdminController;
 //     return view('welcome');
 // });
 
-Route::get('/', [HomeController::class, 'index']);
+// Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index_login']);
 Route::get('/home', [HomeController::class, 'redirect']);
+
+
 
 Route::middleware([
     'auth:sanctum',
@@ -30,6 +33,9 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+    // Route::get('/dashboard', [HomeController::class, 'index_login'])->name('dashboard');
+
 });
 
 Route::get('/add_doctor_view', [AdminController::class, 'addDoctorView']);

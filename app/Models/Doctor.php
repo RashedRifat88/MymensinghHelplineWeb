@@ -8,4 +8,16 @@ use Illuminate\Database\Eloquent\Model;
 class Doctor extends Model
 {
     use HasFactory;
+
+    protected $hidden = [
+        'created_at',
+        'deleted_at',
+        'updated_at'
+    ];
+
+    protected $casts = [
+        'available_days' => 'json',
+    ];
+
+
 }

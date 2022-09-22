@@ -138,18 +138,18 @@
                             <div class="card-body">
                                 <h4 class="card-title">Update Doctor Form</h4>
 
-                                <form action="{{ url('upload_doctor') }}" method="POST" enctype="multipart/form-data">
+                                <form class="forms-sample" action="{{ url('upload_doctor') }}" method="POST" enctype="multipart/form-data">
 
                                     @csrf
 
                                     <div class="form-group">
                                         <label for="exampleInputName1">Name</label>
-                                        <input type="text" class="form-control" style="background-color:white; color:black; " name="name" placeholder="write doctor name" required>
+                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="name" placeholder="write doctor name" required>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="exampleInputName1">Phone</label>
-                                        <input type="number" class="form-control" style="background-color:white; color:black; " name="phone" placeholder="write phone number" required>
+                                        <input type="number" class="form-control" style="background-color:#2A3038; color:white; " name="phone" placeholder="write phone number" required>
                                     </div>
 
                                     <div class="form-group">
@@ -167,8 +167,61 @@
                                     </div>
 
                                     <div class="form-group">
+                                        <label for="exampleInputName1">Bmdc no</label>
+                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="bmdc_no" placeholder="write doctor bmdc no" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleInputName1">Educational Degree</label>
+                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="degree" placeholder="write doctor educational degree" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleInputName1">Experience (years)</label>
+                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="experience" placeholder="write doctor experience" required>
+                                    </div>
+
+                                    <div class="form-group" >
+                                        <label for="exampleInputName1">Doctor Available Days</label>                                    
+                                        <div class="form-check form-check-flat form-check-primary" >
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Saturday">Saturday</label>
+                                        </div>
+                                        <div class="form-check form-check-flat form-check-primary">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Sunday">Sunday</label>
+                                        </div>
+                                        <div class="form-check form-check-flat form-check-primary">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Monday">Monday</label>
+                                        </div>
+                                        <div class="form-check form-check-flat form-check-primary">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Tuesday">Tuesday</label>
+                                        </div>
+                                        <div class="form-check form-check-flat form-check-primary">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Wednesday">Wednesday</label>
+                                        </div>
+                                        <div class="form-check form-check-flat form-check-primary">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Thursday">Thursday</label>
+                                        </div>
+                                        <div class="form-check form-check-flat form-check-primary">
+                                            <label class="form-check-label">
+                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Friday">Friday</label>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="exampleInputName1">Hospital/Chamber</label>
+                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="hospital" placeholder="write doctor hospital/chamber name" required>
+                                    </div>
+
+                                    <div class="form-group">
                                         <label for="exampleInputName1">Room No</label>
-                                        <input type="text" class="form-control" style="background-color:white; color:black; " name="room" placeholder="write doctor room no" required>
+                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="room" placeholder="write doctor room no" required>
                                     </div>
 
                                     <div class="form-group">
@@ -185,6 +238,8 @@
                     </div>
 
                 </div>
+
+
             </div>
         </div>
         ///
