@@ -80,7 +80,7 @@
     <div class="main-panel">
       <div class="content-wrapper">
         <div class="page-header">
-          <h3 class="page-title"> Doctor Tables </h3>
+          <h3 class="page-title"> Hospital Table </h3>
         </div>
         <div class="row">
 

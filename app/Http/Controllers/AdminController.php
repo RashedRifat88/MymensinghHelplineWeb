@@ -129,4 +129,16 @@ class AdminController extends Controller
     }
 
 
+
+
+    public function showshowHospitalClinic()
+    {
+        $data = Doctor::all();
+        return view('admin.show_hospital_clinic', compact('data'));
+    }
+
+
+
+
+
 }

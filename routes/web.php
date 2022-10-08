@@ -44,6 +44,7 @@ Route::get('/show_appointments', [AdminController::class, 'showAppointments']);
 Route::get('/approve_appointment/{id}', [AdminController::class, 'approveAppointment']);
 Route::get('/cancel_appointment_a/{id}', [AdminController::class, 'cancelAppointment_a']);
 Route::get('/show_doctor', [AdminController::class, 'showDoctor']);
+Route::get('/show_hospital_clinic', [AdminController::class, 'showshowHospitalClinic']);
 Route::get('/delete_doctor/{id}', [AdminController::class, 'deleteDoctor']);
 Route::get('/update_doctor/{id}', [AdminController::class, 'updateDoctor']);
 Route::post('/edit_doctor/{id}', [AdminController::class, 'editDoctor']);

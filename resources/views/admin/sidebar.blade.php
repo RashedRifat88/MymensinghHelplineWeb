@@ -85,15 +85,15 @@
     </li> -->
 
 
-    <li class="nav-item menu-items">
-      <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+    <!-- <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#" aria-expanded="false" aria-controls="ui1">
         <span class="menu-icon">
           <i class="fa fa-user-md" style="color:red;"></i>
         </span>
         <span class="menu-title">Doctor</span>
         <i class="menu-arrow"></i>
       </a>
-      <div class="collapse" id="ui-basic">
+      <div class="collapse" id="ui1">
         <ul class="nav flex-column sub-menu">
 
           <li class="nav-item menu-items">
@@ -125,11 +125,29 @@
 
         </ul>
       </div>
-    </li>
+    </li> -->
 
 
     <li class="nav-item menu-items">
       <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+        <span class="menu-icon">
+          <i class="mdi mdi-laptop"></i>
+        </span>
+        <span class="menu-title">Doctor</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="ui-basic">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="{{ url('add_doctor_view') }}">Add Doctors</a></li>
+          <li class="nav-item"> <a class="nav-link" href="{{ url('show_appointments') }}">Appointments</a></li>
+          <li class="nav-item"> <a class="nav-link" href="{{ url('show_doctor') }}">All Doctor</a></li>
+        </ul>
+      </div>
+    </li>
+
+
+    <!-- <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#" aria-expanded="false" aria-controls="ui-basic">
         <span class="menu-icon">
           <i class="fa fa-user-md" style="color:red;"></i>
         </span>
@@ -159,9 +177,289 @@
 
         </ul>
       </div>
+    </li> -->
+
+
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Hospital and Clinic</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="auth">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="{{ url('show_hospital_clinic') }}"> Show </a></li>
+        </ul>
+      </div>
+    </li>
+
+
+
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#math" aria-expanded="false" aria-controls="math">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Home Pathology</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="math">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+        </ul>
+      </div>
+    </li>
+
+
+
+
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#ma" aria-expanded="false" aria-controls="ma">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Medical Accessories</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="ma">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+        </ul>
+      </div>
+    </li>
+
+
+
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#m" aria-expanded="false" aria-controls="m">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Medicine</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="m">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+        </ul>
+      </div>
     </li>
 
     
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#nursing" aria-expanded="false" aria-controls="nursing">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Nursing</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="nursing">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+        </ul>
+      </div>
+    </li>
+
+    
+
+    
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#ambulance" aria-expanded="false" aria-controls="ambulance">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Ambulance</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="ambulance">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+        </ul>
+      </div>
+    </li>
+
+    
+
+    
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#tution" aria-expanded="false" aria-controls="tution">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Tution</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="tution">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+        </ul>
+      </div>
+    </li>
+
+
+    
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#bas" aria-expanded="false" aria-controls="bas">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Buy and Sell</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="bas">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+        </ul>
+      </div>
+    </li>
+
+    
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#blood" aria-expanded="false" aria-controls="blood">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Blood</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="blood">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+        </ul>
+      </div>
+    </li>
+
+    
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#HR" aria-expanded="false" aria-controls="HR">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">House Rent</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="HR">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+        </ul>
+      </div>
+    </li>
+
+
+    
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#results" aria-expanded="false" aria-controls="results">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Results</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="results">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+        </ul>
+      </div>
+    </li>
+
+    
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#jobs" aria-expanded="false" aria-controls="jobs">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Jobs</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="jobs">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+        </ul>
+      </div>
+    </li>
+
+
+    
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#quiz" aria-expanded="false" aria-controls="quiz">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Quiz</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="quiz">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+        </ul>
+      </div>
+    </li>
+
+    
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#md" aria-expanded="false" aria-controls="md">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Mymensingh Division</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="md">
+        <ul class="nav flex-column sub-menu">
+
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Government Institution </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Educational Institution </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Social Institution </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Hotel and Restaurent </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Bus and Train </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> IT Institute </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Show Rooms </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Places of Interest </a></li>
+        
+        </ul>
+      </div>
+    </li>
+
+
+    
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#ap" aria-expanded="false" aria-controls="ap">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">Admission and Application</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="ap">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
+          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+        </ul>
+      </div>
+    </li>
+
+
+
+
+
+
+
+
 
 
   </ul>
