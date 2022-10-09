@@ -24,6 +24,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 //Public Apis
 Route::get('/doctors', [UserController::class, 'allDoctor']);
+Route::get('/hospitals', [UserController::class, 'showshowHospitals']);
 // Route::get('/doctors', function (){
 //     return 'All doctor';
 // });

@@ -111,6 +111,33 @@ class UserController extends Controller
     }
 
 
+    public function showshowHospitalClinic($hospital)
+    {
+        // $data = Doctor::whereNotNull('hospital')->get();
+        $data = Doctor::whereNotNull('hospital')->orWhere('hospital', '=', $hospital)->get();
+
+        return response([
+            'hospital_list' => $data,
+        ]);
+
+    }
+
+
+
+
+    public function showshowHospitals()
+    {
+        // $data = Doctor::whereNotNull('hospital')->get();
+        $data = Doctor::select('hospital')->whereNotNull('hospital')->get();
+
+        return response([
+            'hospital_list' => $data,
+        ]);
+
+    }
+
+
+
 
     public function singleData(Request $request)
     {

@@ -31,38 +31,34 @@
 
     @include('admin.navbar')
 
-
-    <!-- <div class="container-fluid page-body-wrapper" style="background-color: #e3e1e3;">
+    <!-- partial -->
+    <!-- <div class="container-fluid page-body-wrapper" style="background-color: #d1dbeb;">
 
             <div align="center" style="padding:80px;">
 
                 <table style="border-radius: 4px;">  
 
                     <tr style="background-color: #000000;" align="center">
-                        <th style="padding:10px; font-size:20px; color: white;">Customar Name</th>
-                        <th style="padding:10px; font-size:20px; color: white;">Email</th>
+                        <th style="padding:10px; font-size:20px; color: white;">Doctor Name</th>
                         <th style="padding:10px; font-size:20px; color: white;">Phone</th>
-                        <th style="padding:10px; font-size:20px; color: white;">Doctor</th>
-                        <th style="padding:10px; font-size:20px; color: white;">Date</th>
-                        <th style="padding:10px; font-size:20px; color: white;">Message</th>
-                        <th style="padding:10px; font-size:20px; color: white;">Status</th>
-                        <th style="padding:10px; font-size:20px; color: white;">Approve</th>
-                        <th style="padding:10px; font-size:20px; color: white;">Cancel</th>
+                        <th style="padding:10px; font-size:20px; color: white;">Speciality</th>
+                        <th style="padding:10px; font-size:20px; color: white;">Room No</th>
+                        <th style="padding:10px; font-size:20px; color: white;">Image</th>
+                        <th style="padding:10px; font-size:20px; color: white;">Delete</th>
+                        <th style="padding:10px; font-size:20px; color: white;">Update</th>
                     </tr>
 
-                    @foreach ($data as $appointment)
+                    @foreach ($data as $doctor)
 
-                    <tr style="background-color: #cef542;" align="center">
+                    <tr style="background-color: #e3e1e3;" align="center">
 
-                        <td style="padding:10px; font-size:15px; color: black;">{{ $appointment->name }}</td>
-                        <td style="padding:10px; font-size:15px; color: black;">{{ $appointment->email }}</td>
-                        <td style="padding:10px; font-size:15px; color: black;">{{ $appointment->phone }}</td>
-                        <td style="padding:10px; font-size:15px; color: black;">{{ $appointment->doctor }}</td>
-                        <td style="padding:10px; font-size:15px; color: black;">{{ $appointment->date }}</td>
-                        <td style="padding:10px; font-size:15px; color: black;">{{ $appointment->message }}</td>
-                        <td style="padding:10px; font-size:15px; color: black;">{{ $appointment->status }}</td>
-                        <td style="padding:5px; margin:5px;"><a class="btn btn-success" onclick="return confirm('Are you sure to approve this?')" href="{{url('approve_appointment', $appointment->id)}}">Approve</a></td>
-                        <td style="padding:5px; margin:5px;"><a class="btn btn-danger" onclick="return confirm('Are you sure to delete this?')" href="{{url('cancel_appointment_a', $appointment->id)}}">Cancel</a></td>
+                        <td style="padding:10px; font-size:15px; color: black;">{{ $doctor->name }}</td>
+                        <td style="padding:10px; font-size:15px; color: black;">{{ $doctor->phone }}</td>
+                        <td style="padding:10px; font-size:15px; color: black;">{{ $doctor->speciality }}</td>
+                        <td style="padding:10px; font-size:15px; color: black;">{{ $doctor->room }}</td>
+                        <td style="padding:10px; font-size:15px; color: black;"><img height="100 px" width="100 px" src="doctor_image/{{ $doctor->image }}"> </td>
+                        <td style="padding:5px; margin:5px;"><a class="btn btn-danger" onclick="return confirm('Are you sure to delete this?')" href="{{url('delete_doctor', $doctor->id)}}">Delete</a></td>
+                        <td style="padding:5px; margin:5px;"><a class="btn btn-primary"  href="{{url('update_doctor', $doctor->id)}}">Update</a></td>
 
                     </tr>
 
@@ -75,8 +71,6 @@
             </div>
 
         </div> -->
-
-
     <div class="main-panel">
       <div class="content-wrapper">
         <div class="page-header">
@@ -87,49 +81,34 @@
           <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
               <div class="card-body">
-
+               
                 <div class="table-responsive">
-                  <table class="table">
+                  <table class="table" >
                     <thead>
                       <tr>
-
-                        <th style="color:white;">Customar Name</th>
-                        <th style="color:white;">Email</th>
+                        <th style="color:white;">Hospital/Clinic</th>
+                        <th style="color:white;">Doctor Name</th>
                         <th style="color:white;">Phone</th>
-                        <th style="color:white;">Doctor</th>
-                        <th style="color:white;">Date</th>
-                        <th style="color:white;">Message</th>
-                        <th style="color:white;">Status</th>
-                        <!-- <th style="color:white;">Approve</th>
-                        <th style="color:white;">Cancel</th> -->
-                        <th style="color:white;">Action</th>
-
-
+                        <th style="color:white;">Speciality</th>
+                        <th style="color:white;">Room No</th>
+                        <th style="color:white;">Image</th>
+                        <!-- <th style="color:white;">Delete</th>
+                        <th style="color:white;">Update</th> -->
                       </tr>
                     </thead>
                     <tbody>
+                      @foreach ($data as $doctor)
 
-                      @foreach ($data as $appointment)
+                      <tr >
 
-                      <tr>
-
-                        <td style="">{{ $appointment->name }}</td>
-                        <td style="">{{ $appointment->email }}</td>
-                        <td style="">{{ $appointment->phone }}</td>
-                        <td style="">{{ $appointment->doctor }}</td>
-                        <td style="">{{ $appointment->date }}</td>
-                        <td style="">{{ $appointment->message }}</td>
-                        <td style="color:yellow;">{{ $appointment->status }}</td>
-                        <!-- <td style="padding:5px; margin:5px;"><a class="btn btn-success" onclick="return confirm('Are you sure to approve this?')" href="{{url('approve_appointment', $appointment->id)}}">Approve</a></td>
-                        <td style="padding:5px; margin:5px;"><a class="btn btn-danger" onclick="return confirm('Are you sure to delete this?')" href="{{url('cancel_appointment_a', $appointment->id)}}">Cancel</a></td>
-                        <td style="padding:5px; margin:5px;">
-                          <a class="btn btn-success btn-sm" onclick="return confirm('Are you sure to approve this?')" href="{{url('approve_appointment', $appointment->id)}}"><i class="fa fa-check" aria-hidden="true"></i></a>
-                          <a class="btn btn-danger btn-sm" onclick="return confirm('Are you sure to delete this?')" href="{{url('cancel_appointment_a', $appointment->id)}}"><i class="fa fa-trash" aria-hidden="true"></i></a>
-                        </td> -->
-                        <td style="padding:5px; margin:5px;">
-                          <a class="btn btn-success" onclick="return confirm('Are you sure to approve this?')" href="{{url('approve_appointment', $appointment->id)}}">Approve</a>
-                          <a class="btn btn-danger" onclick="return confirm('Are you sure to delete this?')" href="{{url('cancel_appointment_a', $appointment->id)}}">Cancel</a>
-                        </td>
+                        <td>{{ $doctor->hospital }}</td>
+                        <td>{{ $doctor->name }}</td>
+                        <td>{{ $doctor->phone }}</td>
+                        <td>{{ $doctor->speciality }}</td>
+                        <td>{{ $doctor->room }}</td>
+                        <td><img height="100 px" width="100 px" src="doctor_image/{{ $doctor->image }}"> </td>
+                        <!-- <td><a class="btn btn-danger" onclick="return confirm('Are you sure to delete this?')" href="{{url('delete_doctor', $doctor->id)}}">Delete</a></td>
+                        <td><a class="btn btn-primary" href="{{url('update_doctor', $doctor->id)}}">Update</a></td> -->
 
                       </tr>
 
@@ -148,15 +127,14 @@
       <!-- partial:../../partials/_footer.html -->
       <footer class="footer">
         <div class="d-sm-flex justify-content-center justify-content-sm-between">
-          <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © mymensinghhelpline.com 2022</span>
-          <!-- <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap admin template</a> from Bootstrapdash.com</span> -->
+        <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © mymensinghhelpline.com 2022</span>
+              <!-- <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap admin template</a> from Bootstrapdash.com</span> -->
         </div>
       </footer>
       <!-- partial -->
     </div>
 
-
-
+    <!-- page-body-wrapper ends -->
   </div>
   <!-- container-scroller -->
 
