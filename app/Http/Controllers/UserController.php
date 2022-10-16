@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
@@ -80,14 +81,14 @@ class UserController extends Controller
     // {
     //     // $doctor_list = Doctor::all();
     //     $doctor_list =  Doctor::get();
-        
+
     //     return DoctorResourceController::collection($doctor_list);
 
     //     return response([
     //         'doctor_list' => new DoctorResourceController($doctor_list),
     //     ]);
 
-            
+
     // }
 
 
@@ -95,13 +96,11 @@ class UserController extends Controller
     {
         // $doctor_list = Doctor::all();
         $doctor_list =  Doctor::get();
-        
+
 
         return response([
             'doctor_list' => $doctor_list,
         ]);
-
-        
     }
 
 
@@ -111,7 +110,7 @@ class UserController extends Controller
     }
 
 
-    public function showshowHospitalClinic($hospital)
+    public function showHospitalClinic($hospital)
     {
         // $data = Doctor::whereNotNull('hospital')->get();
         $data = Doctor::whereNotNull('hospital')->orWhere('hospital', '=', $hospital)->get();
@@ -119,23 +118,80 @@ class UserController extends Controller
         return response([
             'hospital_list' => $data,
         ]);
-
     }
 
 
 
 
-    public function showshowHospitals()
+    public function showHospitals()
     {
         // $data = Doctor::whereNotNull('hospital')->get();
-        $data = Doctor::select('hospital')->whereNotNull('hospital')->get();
+        $data = Doctor::select('hospital')->distinct()->whereNotNull('hospital')->get();
 
         return response([
             'hospital_list' => $data,
         ]);
-
     }
 
+    public function showDoctorByHospital($hospital_name)
+    {
+
+        // $doctor_list = Doctor::find($hospital_name);
+        // $doctor_list = Doctor::where('hospital', $hospital_name)->get();
+
+        $doctor_list =  DB::table('doctors')
+                ->where('hospital', '=', $hospital_name)
+                ->get();
+
+        return response([
+            'doctor_list' => $doctor_list,
+        ]);
+    }
+
+
+    public function showAppointmentHistory(Request $request)
+    {
+        // $request->validate([
+        //     'phone' => 'required|email',
+        // ]);
+
+
+        $appointments = Appointment::where('phone', $request->phone)->get();
+
+        return response([
+            'status' => "success",
+            'appointment_response' => $appointments,
+        ], 200);
+        
+    }
+
+
+
+    public function appointmentByApp(Request $request)
+    {
+        $data = new Appointment();
+
+        $data->name = $request->name;
+        $data->email = $request->email;
+        $data->phone = $request->phone;
+        $data->doctor = $request->doctor;
+        $data->date = $request->date;
+        $data->message = $request->message;
+        $data->status = "In Progress";
+
+        if (Auth::id()) {
+            $data->user_id = Auth::user()->id;
+        }
+
+        $data->save();
+
+        return response([
+            'message' => "Appointment Successful. We will contact with you soon.",
+            'status' => "success",
+            'appointment_response' => $data,
+        ]);
+        // return redirect()->back()->with('message', 'Appointment Successful. We will contact with you soon.');
+    }
 
 
 
@@ -151,7 +207,7 @@ class UserController extends Controller
         ]);
 
         // return 'doctor_list' => doctor_list;
-            
+
     }
 
 

@@ -24,7 +24,11 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 //Public Apis
 Route::get('/doctors', [UserController::class, 'allDoctor']);
-Route::get('/hospitals', [UserController::class, 'showshowHospitals']);
+Route::get('/doctors/{id}', [UserController::class, 'doctorDetails']);
+Route::get('/doctor_list/{hospital_name}', [UserController::class, 'showDoctorByHospital']);
+Route::get('/hospitals', [UserController::class, 'showHospitals']);
+Route::post('/appointment_history', [UserController::class, 'showAppointmentHistory']);
+Route::post('/make_appointment', [UserController::class, 'appointmentByApp']);
 // Route::get('/doctors', function (){
 //     return 'All doctor';
 // });
@@ -40,9 +44,11 @@ Route::post('/login', [UserController::class, 'login']);
 // Route::middleware('auth:sanctum')->get('/students/{id}', [StudentController::class, 'show']);
 Route::middleware('auth:sanctum')->group(function () {
 
-    Route::get('/doctors/{id}', [UserController::class, 'doctorDetails']);
+    // Route::get('/doctors/{id}', [UserController::class, 'doctorDetails']);
     
     Route::get('/my_appointments', [UserController::class, 'myAppointment']);
+
+
 
     Route::post('/students', [StudentController::class, 'store']);
     Route::put('/students/{id}', [StudentController::class, 'update']);
