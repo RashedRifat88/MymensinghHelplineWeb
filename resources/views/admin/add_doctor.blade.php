@@ -136,7 +136,7 @@
                     <div class="col-8 grid-margin stretch-card">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Update Doctor Form</h4>
+                                <h4 class="card-title">Add Doctor Form</h4>
 
                                 <form class="forms-sample" action="{{ url('upload_doctor') }}" method="POST" enctype="multipart/form-data">
 

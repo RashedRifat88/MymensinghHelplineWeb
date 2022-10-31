@@ -24,6 +24,10 @@
                 <x-jet-label for="email" value="{{ __('Email') }}" />
                 <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
             </div>
+            <!-- <div>
+                <x-jet-label for="email_or_phone" value="{{ __('Email Or Phone') }}" />
+                <x-jet-input id="email_or_phone" class="block mt-1 w-full" type="text" name="email_or_phone" :value="old('email_or_phone')" required autofocus />
+            </div> -->
 
             <div class="mt-4">
                 <x-jet-label for="password" value="{{ __('Password') }}" />

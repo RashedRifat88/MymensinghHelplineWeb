@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-mergeDebugResources-49:/layout/single_item_home_module_list.xml",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/layout/single_item_home_module_list.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-mergeDebugResources-49:/layout/fragment_notifications.xml",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-mergeDebugResources-49:/layout/activity_main.xml",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-mergeDebugResources-49:/layout/fragment_home.xml",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-mergeDebugResources-49:/layout/activity_splash.xml",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-mergeDebugResources-49:/layout/fragment_account.xml",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/layout/fragment_account.xml"
+    }
+]

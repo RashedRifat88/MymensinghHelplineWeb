@@ -143,22 +143,22 @@
 
                   <div class="form-group">
                     <label for="exampleInputName1">Name</label>
-                    <input type="text" class="form-control" style="color: black;" name="name" value="{{$data->name}}" required>
+                    <input type="text" class="form-control" style="background-color:#2A3038; color:white;" name="name" value="{{$data->name}}" required>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputName1">Phone</label>
-                    <input type="number" class="form-control" style="color: black;" name="phone" value="{{$data->phone}}" required>
+                    <input type="number" class="form-control" style="background-color:#2A3038; color:white;" name="phone" value="{{$data->phone}}" required>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputName1">Speciality</label>
-                    <input type="text" class="form-control" style="color: black;" name="speciality" value="{{$data->speciality}}" required>
+                    <input type="text" class="form-control" style="background-color:#2A3038; color:white;" name="speciality" value="{{$data->speciality}}" required>
                   </div>
 
                   <div class="form-group">
                     <label for="exampleInputName1">Room</label>
-                    <input type="text" class="form-control" style="color: black;" name="room" value="{{$data->room}}" required>
+                    <input type="text" class="form-control" style="background-color:#2A3038; color:white;" name="room" value="{{$data->room}}" required>
                   </div>
 
                   <div class="form-group">

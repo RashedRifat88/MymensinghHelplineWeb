@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Doctor;
+use App\Models\HomePage;
 use App\Models\Appointment;
+use App\Models\DiagnosisTest;
+use App\Models\DiagnosisTestOrder;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -47,6 +50,27 @@ class AdminController extends Controller
         
         return redirect()->back()->with('message', 'Doctor added successfully');
     }
+
+
+    
+
+    public function addTestName(Request $request)
+    {
+        // return $request->all();
+
+        $doctor = new DiagnosisTest();
+
+        $doctor->hospital_name = $request->hospital_name;
+        $doctor->test_name = $request->test_name;
+        $doctor->test_price = $request->test_price;
+       
+        $doctor->save();
+        
+        return redirect()->back()->with('message', 'Diagnosis test added successfully');
+    }
+
+
+
 
 
     public function showAppointments()
@@ -141,6 +165,96 @@ class AdminController extends Controller
 
         return view('admin.show_hospital_clinic', compact('data'));
     }
+
+
+
+
+    public function appHomePageView()
+    {
+        $data = HomePage::get()->first();
+
+        return view('admin.update_app_home', compact('data'));
+    
+    }
+
+
+
+    public function showTestName()
+    {
+
+        return view('admin.home_pathology.add_test_name');
+    
+    }
+
+
+
+    
+    public function appHomePage(Request $request, $id)
+    {
+        
+        $top_slider = HomePage::find($id);
+        $top_slider->top_scroll_text = $request->top_scroll_text;
+        $top_slider->top_scroll_text2 = $request->top_scroll_text2;
+        $top_slider->top_scroll_text3 = $request->top_scroll_text3;
+        $top_slider->top_scroll_text4 = $request->top_scroll_text4;
+        $top_slider->top_scroll_text5 = $request->top_scroll_text5;
+        // $top_slider->sub_title = $request->sub_title;
+
+        // dd($request->file('bg_image'));
+
+        $image = $request->file('file_image1');
+        if ($request->file('file_image1')) {
+
+            $imageName = time() . '.' . $image->getClientOriginalExtension();
+            $request->file('file_image1')->move('home_slider_image', $imageName);
+            $top_slider->top_slider_img1 = $imageName;
+        
+
+        }
+
+        
+        $image2 = $request->file('file_image2');
+        if ($request->file('file_image2')) {
+
+            $imageName2 = time() . '.' . $image2->getClientOriginalExtension();
+            $request->file('file_image2')->move('home_slider_image', $imageName2);
+            $top_slider->top_slider_img2 = $imageName2;
+        
+
+        }
+
+        $image3 = $request->file('file_image3');
+        if ($request->file('file_image3')) {
+
+            $imageName3 = time() . '.' . $image3->getClientOriginalExtension();
+            $request->file('file_image3')->move('home_slider_image', $imageName3);
+            $top_slider->top_slider_img3 = $imageName3;
+        
+
+        }
+
+
+        $resume = $request->file('resume');
+        if ($request->file('resume')) {
+            $resumeName = time() . '.' . $resume->getClientOriginalExtension();
+            $request->file('bg_image')->move('assets/resumes', $resumeName);
+            $top_slider->resume = $resumeName;
+        }
+
+        $top_slider->save();
+
+        // return response([
+        //     'status' => "success",
+        //     'message' => "Update file and text successfully",
+        // ]);
+        
+
+        return redirect()->back()->with('message', 'App Home updated successfully');
+
+    }
+
+
+
 
 
 

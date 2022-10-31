@@ -127,6 +127,22 @@
       </div>
     </li> -->
 
+    <li class="nav-item menu-items">
+      <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+        <span class="menu-icon">
+          <i class="mdi mdi-security"></i>
+        </span>
+        <span class="menu-title">App Home Page</span>
+        <i class="menu-arrow"></i>
+      </a>
+      <div class="collapse" id="auth">
+        <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link" href="{{ url('view_app_home') }}"> Top Slider & Text </a></li>
+        </ul>
+      </div>
+    </li>
+
+
 
     <li class="nav-item menu-items">
       <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
@@ -198,21 +214,21 @@
 
 
     <li class="nav-item menu-items">
-      <a class="nav-link" data-bs-toggle="collapse" href="#math" aria-expanded="false" aria-controls="math">
+      <a class="nav-link" data-bs-toggle="collapse" href="#dt" aria-expanded="false" aria-controls="dt">
         <span class="menu-icon">
           <i class="mdi mdi-security"></i>
         </span>
         <span class="menu-title">Home Pathology</span>
         <i class="menu-arrow"></i>
       </a>
-      <div class="collapse" id="math">
+      <div class="collapse" id="dt">
         <ul class="nav flex-column sub-menu">
-          <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> All </a></li>
-          <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> Show </a></li>
+          <li class="nav-item"> <a class="nav-link" href="{ url('view_add_test_name') }}"> Add Test Name </a></li>
+          <li class="nav-item"> <a class="nav-link" href="{ url('show_patient_order') }}"> Patient Orders </a></li>
         </ul>
       </div>
     </li>
-
+    
 
 
 
@@ -250,7 +266,7 @@
       </div>
     </li>
 
-    
+
     <li class="nav-item menu-items">
       <a class="nav-link" data-bs-toggle="collapse" href="#nursing" aria-expanded="false" aria-controls="nursing">
         <span class="menu-icon">
@@ -267,9 +283,9 @@
       </div>
     </li>
 
-    
 
-    
+
+
     <li class="nav-item menu-items">
       <a class="nav-link" data-bs-toggle="collapse" href="#ambulance" aria-expanded="false" aria-controls="ambulance">
         <span class="menu-icon">
@@ -286,9 +302,9 @@
       </div>
     </li>
 
-    
 
-    
+
+
     <li class="nav-item menu-items">
       <a class="nav-link" data-bs-toggle="collapse" href="#tution" aria-expanded="false" aria-controls="tution">
         <span class="menu-icon">
@@ -306,7 +322,7 @@
     </li>
 
 
-    
+
     <li class="nav-item menu-items">
       <a class="nav-link" data-bs-toggle="collapse" href="#bas" aria-expanded="false" aria-controls="bas">
         <span class="menu-icon">
@@ -323,7 +339,7 @@
       </div>
     </li>
 
-    
+
     <li class="nav-item menu-items">
       <a class="nav-link" data-bs-toggle="collapse" href="#blood" aria-expanded="false" aria-controls="blood">
         <span class="menu-icon">
@@ -340,7 +356,7 @@
       </div>
     </li>
 
-    
+
     <li class="nav-item menu-items">
       <a class="nav-link" data-bs-toggle="collapse" href="#HR" aria-expanded="false" aria-controls="HR">
         <span class="menu-icon">
@@ -358,7 +374,7 @@
     </li>
 
 
-    
+
     <li class="nav-item menu-items">
       <a class="nav-link" data-bs-toggle="collapse" href="#results" aria-expanded="false" aria-controls="results">
         <span class="menu-icon">
@@ -375,7 +391,7 @@
       </div>
     </li>
 
-    
+
     <li class="nav-item menu-items">
       <a class="nav-link" data-bs-toggle="collapse" href="#jobs" aria-expanded="false" aria-controls="jobs">
         <span class="menu-icon">
@@ -393,7 +409,7 @@
     </li>
 
 
-    
+
     <li class="nav-item menu-items">
       <a class="nav-link" data-bs-toggle="collapse" href="#quiz" aria-expanded="false" aria-controls="quiz">
         <span class="menu-icon">
@@ -410,7 +426,7 @@
       </div>
     </li>
 
-    
+
     <li class="nav-item menu-items">
       <a class="nav-link" data-bs-toggle="collapse" href="#md" aria-expanded="false" aria-controls="md">
         <span class="menu-icon">
@@ -430,13 +446,13 @@
           <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> IT Institute </a></li>
           <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Show Rooms </a></li>
           <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Places of Interest </a></li>
-        
+
         </ul>
       </div>
     </li>
 
 
-    
+
     <li class="nav-item menu-items">
       <a class="nav-link" data-bs-toggle="collapse" href="#ap" aria-expanded="false" aria-controls="ap">
         <span class="menu-icon">

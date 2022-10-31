@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.egsystembd.MymensinghHelpline"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:6:5-29:19
+12        android:allowBackup="true"
+12-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\Rifat\.gradle\caches\transforms-3\cd33f26b4f6a5be75c2c675ec5e179dc\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:fullBackupContent="@xml/backup_rules"
+17-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:9:9-54
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.MymensinghHelpline" >
+23-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:14:9-56
+24        <activity
+24-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:16:9-18:40
+25            android:name="com.egsystembd.MymensinghHelpline.MainActivity"
+25-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:17:13-41
+26            android:exported="false" />
+26-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:18:13-37
+27        <activity
+27-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:19:9-28:20
+28            android:name="com.egsystembd.MymensinghHelpline.SplashActivity"
+28-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:20:13-43
+29            android:exported="true"
+29-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:21:13-36
+30            android:label="@string/app_name" >
+30-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:22:13-45
+31            <intent-filter>
+31-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:23:13-27:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:24:17-69
+32-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:24:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:26:17-77
+34-->C:\Users\Rifat\AndroidStudioProjects\MymensinghHelpline\app\src\main\AndroidManifest.xml:26:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <provider
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rifat\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+39            android:name="androidx.startup.InitializationProvider"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rifat\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+40            android:authorities="com.egsystembd.MymensinghHelpline.androidx-startup"
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rifat\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+41            android:exported="false" >
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rifat\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+42            <meta-data
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rifat\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rifat\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+44                android:value="androidx.startup" />
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Rifat\.gradle\caches\transforms-3\73850b32b2c7ce32b12b91c16b2382c2\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+45            <meta-data
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Rifat\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Rifat\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+47                android:value="androidx.startup" />
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Rifat\.gradle\caches\transforms-3\280b8c662ae12c28e2c58a98b88e76a9\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+48        </provider>
+49
+50        <uses-library
+50-->[androidx.window:window:1.0.0] C:\Users\Rifat\.gradle\caches\transforms-3\29a4a2635fe3ae7324fd4158242cc016\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+51            android:name="androidx.window.extensions"
+51-->[androidx.window:window:1.0.0] C:\Users\Rifat\.gradle\caches\transforms-3\29a4a2635fe3ae7324fd4158242cc016\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+52            android:required="false" />
+52-->[androidx.window:window:1.0.0] C:\Users\Rifat\.gradle\caches\transforms-3\29a4a2635fe3ae7324fd4158242cc016\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+53        <uses-library
+53-->[androidx.window:window:1.0.0] C:\Users\Rifat\.gradle\caches\transforms-3\29a4a2635fe3ae7324fd4158242cc016\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+54            android:name="androidx.window.sidecar"
+54-->[androidx.window:window:1.0.0] C:\Users\Rifat\.gradle\caches\transforms-3\29a4a2635fe3ae7324fd4158242cc016\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+55            android:required="false" />
+55-->[androidx.window:window:1.0.0] C:\Users\Rifat\.gradle\caches\transforms-3\29a4a2635fe3ae7324fd4158242cc016\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+56
+57        <provider
+57-->[com.squareup.picasso:picasso:2.71828] C:\Users\Rifat\.gradle\caches\transforms-3\7f5d06fd6561289ee759ffbbc13ff8f6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+58            android:name="com.squareup.picasso.PicassoProvider"
+58-->[com.squareup.picasso:picasso:2.71828] C:\Users\Rifat\.gradle\caches\transforms-3\7f5d06fd6561289ee759ffbbc13ff8f6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+59            android:authorities="com.egsystembd.MymensinghHelpline.com.squareup.picasso"
+59-->[com.squareup.picasso:picasso:2.71828] C:\Users\Rifat\.gradle\caches\transforms-3\7f5d06fd6561289ee759ffbbc13ff8f6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+60            android:exported="false" />
+60-->[com.squareup.picasso:picasso:2.71828] C:\Users\Rifat\.gradle\caches\transforms-3\7f5d06fd6561289ee759ffbbc13ff8f6\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+61    </application>
+62
+63</manifest>

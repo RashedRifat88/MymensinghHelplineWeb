@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Resources\DoctorResourceController;
 use App\Models\Doctor;
 use App\Models\Appointment;
+use App\Models\HomePage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
@@ -17,16 +18,22 @@ class UserController extends Controller
 
     public function register(Request $request)
     {
+        // $request->validate([
+        //     'name' => 'required',
+        //     'email' => 'required|email',
+        //     'password' => 'required|confirmed',
+        // ]);
+       
         $request->validate([
             'name' => 'required',
-            'email' => 'required|email',
-            'password' => 'required|confirmed',
+            'password' => 'required',
         ]);
 
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'phone' => $request->phone,
+            'device_name' => $request->device_name,
             'user_type' => '0',
             'password' => Hash::make($request->password),
         ]);
@@ -52,13 +59,17 @@ class UserController extends Controller
 
     public function login(Request $request)
     {
+        // return $request;
         $request->validate([
-            'email' => 'required|email',
+            'email_or_phone' => 'required',
             'password' => 'required',
         ]);
 
 
-        $user = User::where('email', $request->email)->first();
+        // $user = User::where('email', $request->email)->first();
+        $user = User::where('email', $request->email_or_phone)
+                    ->orWhere('phone', $request->email_or_phone)
+                    ->first();
 
         if (!$user || !Hash::check($request->password, $user->password)) {
             return response([
@@ -74,6 +85,8 @@ class UserController extends Controller
             'token' => $token
         ], 200);
     }
+
+
 
 
 
@@ -165,6 +178,24 @@ class UserController extends Controller
         
     }
 
+    
+    public function showAppHomePage(Request $request)
+    {
+        // $request->validate([
+        //     'phone' => 'required|email',
+        // ]);
+
+        $data = HomePage::get()->first();
+
+        return response([
+            'status' => "success",
+            'data_response' => $data,
+        ], 200);
+        
+    }
+
+
+
 
 
     public function appointmentByApp(Request $request)
@@ -192,6 +223,67 @@ class UserController extends Controller
         ]);
         // return redirect()->back()->with('message', 'Appointment Successful. We will contact with you soon.');
     }
+
+
+
+    // public function appHomePage(Request $request)
+    // {
+        
+    //     $top_slider = HomePage::first();
+    //     $top_slider->title = $request->title;
+    //     $top_slider->sub_title = $request->sub_title;
+
+    //     // dd($request->file('bg_image'));
+
+    //     $image = $request->file('file_image1');
+    //     if ($request->file('file_image1')) {
+
+    //         $imageName = time() . '.' . $image->getClientOriginalExtension();
+    //         $request->file('file_image1')->move('assets/images/top_part', $imageName);
+    //         $top_slider->file_image1 = $imageName;
+        
+
+    //     }
+
+        
+    //     $image2 = $request->file('file_image2');
+    //     if ($request->file('file_image2')) {
+
+    //         $imageName = time() . '.' . $image2->getClientOriginalExtension();
+    //         $request->file('file_image2')->move('assets/images/top_part', $imageName);
+    //         $top_slider->file_image2 = $imageName;
+        
+
+    //     }
+
+    //     $image3 = $request->file('file_image3');
+    //     if ($request->file('file_image3')) {
+
+    //         $imageName = time() . '.' . $image3->getClientOriginalExtension();
+    //         $request->file('file_image3')->move('assets/images/top_part', $imageName);
+    //         $top_slider->file_image3 = $imageName;
+        
+
+    //     }
+
+
+    //     $resume = $request->file('resume');
+    //     if ($request->file('resume')) {
+    //         $resumeName = time() . '.' . $resume->getClientOriginalExtension();
+    //         $request->file('bg_image')->move('assets/resumes', $resumeName);
+    //         $top_slider->resume = $resumeName;
+    //     }
+
+    //     $top_slider->save();
+
+    //     return response([
+    //         'status' => "success",
+    //         'message' => "Update file and text successfully",
+    //     ]);
+        
+
+    // }
+
 
 
 

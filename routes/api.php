@@ -29,6 +29,11 @@ Route::get('/doctor_list/{hospital_name}', [UserController::class, 'showDoctorBy
 Route::get('/hospitals', [UserController::class, 'showHospitals']);
 Route::post('/appointment_history', [UserController::class, 'showAppointmentHistory']);
 Route::post('/make_appointment', [UserController::class, 'appointmentByApp']);
+Route::get('/app_home', [UserController::class, 'showAppHomePage']);
+
+
+
+
 // Route::get('/doctors', function (){
 //     return 'All doctor';
 // });

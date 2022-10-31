@@ -1,0 +1,574 @@
+[
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_button_rounded_angle4.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/button_rounded_angle4.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_arrow_forward.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_arrow_forward.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_background_btn_white.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/background_btn_white.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_attach.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_attach.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_roboto_medium.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/roboto_medium.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_custom_progress_bg1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/custom_progress_bg1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_circle_border.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/circle_border.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_nunito_bold.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/nunito_bold.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_loader20.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/loader20.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_dstethoscope.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_dstethoscope.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_nunito_black.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/nunito_black.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_loader30.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/loader30.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/anim_ttb.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/anim/ttb.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_gradient2.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/gradient2.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_circle_shape_orange.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/circle_shape_orange.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/anim_stb.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/anim/stb.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_eye.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_eye.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_menu3.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_menu3.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/layout_activity_splash.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_button_rounded_angle5.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/button_rounded_angle5.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_arrow_right.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_arrow_right.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_denmark.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/denmark.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_nikosh_light_ban.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/nikosh_light_ban.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_add.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/layout_single_item_home_module_list.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/layout/single_item_home_module_list.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_result_api.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/result_api.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_icon_search.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_icon_search.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_poppins_bold.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/poppins_bold.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_user1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_user1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_nunito_extra_bold.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/nunito_extra_bold.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_nunito_regular.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/nunito_regular.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/xml_backup_rules.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_rifat.jpg.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/rifat.jpg"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_nunito_medium.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/nunito_medium.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_admission.jpg.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/admission.jpg"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_gradient_green1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/gradient_green1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_doctor1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_doctor1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_coresanscrmedium.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/coresanscrmedium.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_arrow_back.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_nunito_light.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/nunito_light.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_clock1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_clock1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_button_rounded_angle2.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/button_rounded_angle2.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_montserrat.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/montserrat.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_demo_exam_json.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/demo_exam_json.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_expand_arrow.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_expand_arrow.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_alarm_clock.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_alarm_clock.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_circle_bg.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/circle_bg.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_open_sans_semibold.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/open_sans_semibold.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/layout_activity_main.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_product_sans_bold.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/product_sans_bold.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_gradient_orange1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/gradient_orange1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/anim_btt2.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/anim/btt2.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_menu1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_menu1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_gradient1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/gradient1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_coresanscrlight.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/coresanscrlight.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/layout_fragment_notifications.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_add1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_add1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/xml_data_extraction_rules.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_poppins_light.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/poppins_light.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_coresanscrregular.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/coresanscrregular.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_solaiman_lipi.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/solaiman_lipi.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_call_24dp.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_call_24dp.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_badge2.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_badge2.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_gradient_orange2.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/gradient_orange2.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_arrow_back_1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_arrow_back_1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_poppins.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/poppins.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/layout_fragment_home.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_roboto_bolditalic.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/roboto_bolditalic.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable-v24_img_1.png.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable-v24/img_1.png"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_roboto_regular.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/roboto_regular.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_card_bg2.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/card_bg2.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_rounded_search2.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/rounded_search2.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_roboto_black.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/roboto_black.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_et_bg1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/et_bg1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_tablet_notifications.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/tablet_notifications.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_poppins_medium.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/poppins_medium.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_arrow_back_2.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_arrow_back_2.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_no_internet_connection2.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/no_internet_connection2.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_rounded_corner8.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/rounded_corner8.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_rounded_corner1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/rounded_corner1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_badge1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_badge1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_medical.jpg.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/medical.jpg"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_roboto_bold.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/roboto_bold.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/navigation_home_navigation.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/navigation/home_navigation.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_rounded_corner11.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/rounded_corner11.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_cross.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_cross.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_result.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/result.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_mymensingh_map.png.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/mymensingh_map.png"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_circle_shape_green.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/circle_shape_green.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_product_sans_bold_italic.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/product_sans_bold_italic.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/anim_btt3.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/anim/btt3.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable-v24_img.png.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable-v24/img.png"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_kumarkhali_bold.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/kumarkhali_bold.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_nunito_semibold.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/nunito_semibold.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_nunito_extra_light.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/nunito_extra_light.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_circle_border_yellow.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/circle_border_yellow.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_product_sans_italic.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/product_sans_italic.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_cross2.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_cross2.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/anim_btt1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/anim/btt1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-pngs-45:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_product_sans_regular.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/product_sans_regular.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_message_sent.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/message_sent.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_gradient3.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/gradient3.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_arrow_back2.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_arrow_back2.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_service.jpg.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/service.jpg"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_gradient_blue1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/gradient_blue1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_menu2.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_menu2.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_under_construction.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/under_construction.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/anim_btt4.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/anim/btt4.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_loading_text_animation.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/loading_text_animation.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_cell_shape1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/cell_shape1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_loading_dots.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/loading_dots.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_empty_box.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/empty_box.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/layout_fragment_account.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_button_rounded_angle.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/button_rounded_angle.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_button_rounded_angle3.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/button_rounded_angle3.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_arrow_up.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_arrow_up.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_alarm.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_alarm.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_location3.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/location3.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_test.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/test.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/raw_loader10.json.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/raw/loader10.json"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_delete_indicator_shape.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/delete_indicator_shape.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_ic_arrow_down.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/ic_arrow_down.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_circle_green.png.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/circle_green.png"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/drawable_gradient_yellow1.xml.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/drawable/gradient_yellow1.xml"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/font_coresanscrbold.ttf.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/font/coresanscrbold.ttf"
+    },
+    {
+        "merged": "com.egsystembd.MymensinghHelpline.app-merged_res-50:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.egsystembd.MymensinghHelpline.app-main-52:/mipmap-hdpi/ic_launcher_round.webp"
+    }
+]
