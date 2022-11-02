@@ -143,92 +143,20 @@
                                     @csrf
 
                                     <div class="form-group">
-                                        <label for="exampleInputName1">Name</label>
-                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="name" placeholder="write doctor name" required>
+                                        <label for="exampleInputName1">Hospital Name</label>
+                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="hospital_name" placeholder="write hospital name" required>
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="exampleInputName1">Phone</label>
-                                        <input type="number" class="form-control" style="background-color:#2A3038; color:white; " name="phone" placeholder="write phone number" required>
+                                        <label for="exampleInputName1">Test Name</label>
+                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="test_name" placeholder="write test name" required>
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="exampleInputName1">Speciality</label>
-                                        <br />
-                                        <select name="speciality" style="color:black;">
-                                            <option>--select--</option>
-                                            <option value="heart">Heart</option>
-                                            <option value="ent">ENT</option>
-                                            <option value="eye">Eye</option>
-                                            <option value="skin">Skin</option>
-                                            <option value="skin">Gastro-Endology</option>
-                                            <option value="skin">Urology</option>
-                                        </select>
+                                        <label for="exampleInputName1">Test Price</label>
+                                        <input type="number" class="form-control" style="background-color:#2A3038; color:white; " name="test_price" placeholder="write test price" required>
                                     </div>
 
-                                    <div class="form-group">
-                                        <label for="exampleInputName1">Bmdc no</label>
-                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="bmdc_no" placeholder="write doctor bmdc no" required>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="exampleInputName1">Educational Degree</label>
-                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="degree" placeholder="write doctor educational degree" required>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="exampleInputName1">Experience (years)</label>
-                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="experience" placeholder="write doctor experience" required>
-                                    </div>
-
-                                    <div class="form-group" >
-                                        <label for="exampleInputName1">Doctor Available Days</label>                                    
-                                        <div class="form-check form-check-flat form-check-primary" >
-                                            <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Saturday">Saturday</label>
-                                        </div>
-                                        <div class="form-check form-check-flat form-check-primary">
-                                            <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Sunday">Sunday</label>
-                                        </div>
-                                        <div class="form-check form-check-flat form-check-primary">
-                                            <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Monday">Monday</label>
-                                        </div>
-                                        <div class="form-check form-check-flat form-check-primary">
-                                            <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Tuesday">Tuesday</label>
-                                        </div>
-                                        <div class="form-check form-check-flat form-check-primary">
-                                            <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Wednesday">Wednesday</label>
-                                        </div>
-                                        <div class="form-check form-check-flat form-check-primary">
-                                            <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Thursday">Thursday</label>
-                                        </div>
-                                        <div class="form-check form-check-flat form-check-primary">
-                                            <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" name="available_days[]" value="Friday">Friday</label>
-                                        </div>
-
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="exampleInputName1">Hospital/Chamber</label>
-                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="hospital" placeholder="write doctor hospital/chamber name" required>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="exampleInputName1">Room No</label>
-                                        <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="room" placeholder="write doctor room no" required>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label>New Image</label>
-                                        <br />
-                                        <input type="file" style="" name="file" required>
-                                    </div>
 
                                     <button type="submit" class="btn btn-primary me-2">Submit</button>
 

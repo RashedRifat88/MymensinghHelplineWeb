@@ -58,16 +58,40 @@ class AdminController extends Controller
     {
         // return $request->all();
 
-        $doctor = new DiagnosisTest();
+        $data = new DiagnosisTest();
 
-        $doctor->hospital_name = $request->hospital_name;
-        $doctor->test_name = $request->test_name;
-        $doctor->test_price = $request->test_price;
+        $data->hospital_name = $request->hospital_name;
+        $data->test_name = $request->test_name;
+        $data->test_price = $request->test_price;
        
-        $doctor->save();
+        $data->save();
         
         return redirect()->back()->with('message', 'Diagnosis test added successfully');
     }
+
+    public function showAllTest()
+    {
+        $data = DiagnosisTest::all();
+
+        return view('admin.show_doctor', compact('data'));
+    }
+
+
+    public function deleteTest($id)
+    {
+        $data = DiagnosisTest::find($id);
+        $data->delete();
+
+        return redirect()->back();
+    }
+
+    public function updateTest($id)
+    {
+        $data = DiagnosisTest::find($id);
+
+        return view('admin.update_doctor', compact('data'));
+    }
+
 
 
 

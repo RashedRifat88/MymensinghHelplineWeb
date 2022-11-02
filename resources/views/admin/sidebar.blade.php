@@ -223,8 +223,8 @@
       </a>
       <div class="collapse" id="dt">
         <ul class="nav flex-column sub-menu">
-          <li class="nav-item"> <a class="nav-link" href="{ url('view_add_test_name') }}"> Add Test Name </a></li>
-          <li class="nav-item"> <a class="nav-link" href="{ url('show_patient_order') }}"> Patient Orders </a></li>
+          <li class="nav-item"> <a class="nav-link" href="{{ url('view_add_test_name') }}"> Add Test Name </a></li>
+          <li class="nav-item"> <a class="nav-link" href="{{  url('show_patient_order')  }}"> Patient Orders </a></li>
         </ul>
       </div>
     </li>
