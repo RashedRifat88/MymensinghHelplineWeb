@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Resources\DoctorResourceController;
 use App\Models\Doctor;
 use App\Models\Appointment;
+use App\Models\DiagnosisTest;
 use App\Models\HomePage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -345,4 +346,21 @@ class UserController extends Controller
 
         return redirect()->back();
     }
+
+
+
+
+    public function allTest()
+    {
+    
+        $test_list =  DiagnosisTest::get();
+
+
+        return response([
+            'test_list' => $test_list,
+        ]);
+    }
+
+
+
 }

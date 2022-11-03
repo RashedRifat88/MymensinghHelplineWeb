@@ -56,8 +56,12 @@ Route::get('/cancel_appointment/{id}', [HomeController::class, 'cancelAppointmen
 
 Route::get('/view_app_home', [AdminController::class, 'appHomePageView']);
 Route::post('/update_app_home/{id}', [AdminController::class, 'appHomePage']);
+
+
 Route::get('/view_add_test_name', [AdminController::class, 'showTestName']);
 Route::post('/add_test_name', [AdminController::class, 'addTestName']);
+Route::get('/show_all_test', [AdminController::class, 'showAllTest']);
+Route::post('/edit_test/{id}', [AdminController::class, 'editTest']);
+Route::get('/update_test/{id}', [AdminController::class, 'updateTest']);
+Route::get('/delete_test/{id}', [AdminController::class, 'deleteTest']);
 Route::get('/show_patient_order', [AdminController::class, 'showPatientOrder']);
-
-

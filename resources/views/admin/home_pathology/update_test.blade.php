@@ -137,40 +137,26 @@
               <div class="card-body">
                 <h4 class="card-title">Update Doctor Form</h4>
 
-                <form class="forms-sample" action="{{ url('edit_doctor', $data->id) }}" method="POST" enctype="multipart/form-data">
+                <form class="forms-sample" action="{{ url('edit_test', $data->id) }}" method="POST" enctype="multipart/form-data">
 
                   @csrf
 
-                  <div class="form-group">
-                    <label for="exampleInputName1">Name</label>
-                    <input type="text" class="form-control" style="background-color:#2A3038; color:white;" name="name" value="{{$data->name}}" required>
-                  </div>
+                <div class="form-group">
+                    <label for="exampleInputName1">Hospital Name</label>
+                    <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="hospital_name" value="{{$data->hospital_name}}" required>
+                </div>
 
-                  <div class="form-group">
-                    <label for="exampleInputName1">Phone</label>
-                    <input type="number" class="form-control" style="background-color:#2A3038; color:white;" name="phone" value="{{$data->phone}}" required>
-                  </div>
+                <div class="form-group">
+                    <label for="exampleInputName1">Test Name</label>
+                    <input type="text" class="form-control" style="background-color:#2A3038; color:white; " name="test_name" value="{{$data->test_name}}" required>
+                </div>
 
-                  <div class="form-group">
-                    <label for="exampleInputName1">Speciality</label>
-                    <input type="text" class="form-control" style="background-color:#2A3038; color:white;" name="speciality" value="{{$data->speciality}}" required>
-                  </div>
+                <div class="form-group">
+                    <label for="exampleInputName1">Test Price</label>
+                    <input type="number" class="form-control" style="background-color:#2A3038; color:white; " name="test_price" value="{{$data->test_price}}" required>
+                </div>
 
-                  <div class="form-group">
-                    <label for="exampleInputName1">Room</label>
-                    <input type="text" class="form-control" style="background-color:#2A3038; color:white;" name="room" value="{{$data->room}}" required>
-                  </div>
 
-                  <div class="form-group">
-                    <label for="exampleInputName1">Old Image</label>
-                    <img height="100 px" width="100 px" src="doctor_image/{{ $data->image }}">
-                  </div>
-
-                  <div class="form-group">
-                    <label>New Image</label>
-                    <br />
-                    <input type="file" style="color: white;" name="file">
-                  </div>
 
                   <button type="submit" class="btn btn-primary me-2">Submit</button>
 

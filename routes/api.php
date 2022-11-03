@@ -31,6 +31,8 @@ Route::post('/appointment_history', [UserController::class, 'showAppointmentHist
 Route::post('/make_appointment', [UserController::class, 'appointmentByApp']);
 Route::get('/app_home', [UserController::class, 'showAppHomePage']);
 
+Route::get('/show_all_test', [UserController::class, 'allTest']);
+
 
 
 

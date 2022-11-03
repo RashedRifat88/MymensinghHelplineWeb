@@ -86,27 +86,24 @@
                   <table class="table" >
                     <thead>
                       <tr>
-                        <th style="color:white;">Doctor Name</th>
-                        <th style="color:white;">Phone</th>
-                        <th style="color:white;">Speciality</th>
-                        <th style="color:white;">Room No</th>
-                        <th style="color:white;">Image</th>
+                        <th style="color:white;">Hospital Name</th>
+                        <th style="color:white;">Test Name</th>
+                        <th style="color:white;">Test Price</th>
                         <th style="color:white;">Delete</th>
                         <th style="color:white;">Update</th>
                       </tr>
                     </thead>
                     <tbody>
-                      @foreach ($data as $doctor)
+                      @foreach ($data as $diagnosis)
 
                       <tr >
 
-                        <td>{{ $doctor->name }}</td>
-                        <td>{{ $doctor->phone }}</td>
-                        <td>{{ $doctor->speciality }}</td>
-                        <td>{{ $doctor->room }}</td>
-                        <td><img height="100 px" width="100 px" src="doctor_image/{{ $doctor->image }}"> </td>
-                        <td><a class="btn btn-danger" onclick="return confirm('Are you sure to delete this?')" href="{{url('delete_doctor', $doctor->id)}}">Delete</a></td>
-                        <td><a class="btn btn-primary" href="{{url('update_doctor', $doctor->id)}}">Update</a></td>
+                        <td>{{ $diagnosis->hospital_name }}</td>
+                        <td>{{ $diagnosis->test_name }}</td>
+                        <td>{{ $diagnosis->test_price }}</td>
+                      
+                        <td><a class="btn btn-danger" onclick="return confirm('Are you sure to delete this?')" href="{{url('delete_test', $diagnosis->id)}}">Delete</a></td>
+                        <td><a class="btn btn-primary" href="{{url('update_test', $diagnosis->id)}}">Update</a></td>
 
                       </tr>
 

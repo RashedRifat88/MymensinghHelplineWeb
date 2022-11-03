@@ -73,9 +73,10 @@ class AdminController extends Controller
     {
         $data = DiagnosisTest::all();
 
-        return view('admin.show_doctor', compact('data'));
+        return view('admin.home_pathology.show_test', compact('data'));
     }
 
+    
 
     public function deleteTest($id)
     {
@@ -85,11 +86,27 @@ class AdminController extends Controller
         return redirect()->back();
     }
 
+
+
     public function updateTest($id)
     {
         $data = DiagnosisTest::find($id);
 
-        return view('admin.update_doctor', compact('data'));
+        return view('admin.home_pathology.update_test', compact('data'));
+    }
+
+
+
+    public function editTest(Request $request, $id)
+    {
+        $test = DiagnosisTest::find($id);
+
+        $test->hospital_name = $request->hospital_name;
+        $test->test_name = $request->test_name;
+        $test->test_price = $request->test_price;
+
+        $test->save();
+        return redirect()->back()->with('message', 'Test updated successfully');
     }
 
 
