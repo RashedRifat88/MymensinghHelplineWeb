@@ -6,12 +6,14 @@ use App\Http\Resources\DoctorResourceController;
 use App\Models\Doctor;
 use App\Models\Appointment;
 use App\Models\DiagnosisTest;
+use App\Models\DiagnosisTestOrder;
 use App\Models\HomePage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\DB;
+
 
 class UserController extends Controller
 {
@@ -360,6 +362,39 @@ class UserController extends Controller
             'test_list' => $test_list,
         ]);
     }
+
+
+    public function uploadTestOrder(Request $request)
+    {
+
+        $test_order = new DiagnosisTestOrder();
+
+        $image = $request->file('test_prescription');
+        if ($request->file('test_prescription')) {
+
+            $imageName = time() . '.' . $image->getClientOriginalExtension();
+            $request->file('test_prescription')->move('test_prescription_image', $imageName);
+            $test_order->test_prescription = $imageName;
+        
+        }
+
+        $test_order->pat_id = $request->pat_id;
+        $test_order->pat_name = $request->pat_name;
+        $test_order->pat_mobile = $request->pat_mobile;
+        $test_order->hospital_name = $request->hospital_name;
+        $test_order->test_list = $request->test_list;
+        $test_order->test_price_list = $request->test_price_list;
+        $test_order->has_prescription = $request->has_prescription;
+
+        $test_order->save();
+        
+        return response([
+            'message' => "Order Successful. We will contact with you soon.",
+            'status' => "success",
+            'response' => $test_order,
+        ]);
+    }
+
 
 
 
