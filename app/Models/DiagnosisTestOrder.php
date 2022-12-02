@@ -11,6 +11,7 @@ class DiagnosisTestOrder extends Model
 
 
     protected $casts = [
+        'hospital_name' => 'json',
         'test_list' => 'json',
         'test_price_list' => 'json',
     ];

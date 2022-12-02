@@ -385,6 +385,7 @@ class UserController extends Controller
         $test_order->test_list = $request->test_list;
         $test_order->test_price_list = $request->test_price_list;
         $test_order->has_prescription = $request->has_prescription;
+        $test_order->date = $request->date;
 
         $test_order->save();
         

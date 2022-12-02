@@ -76,7 +76,7 @@ class AdminController extends Controller
         return view('admin.home_pathology.show_test', compact('data'));
     }
 
-    
+
 
     public function deleteTest($id)
     {
@@ -85,6 +85,17 @@ class AdminController extends Controller
 
         return redirect()->back();
     }
+
+
+        
+    public function showPatientOrder()
+    {
+        $data = DiagnosisTestOrder::all();
+
+        return view('admin.home_pathology.show_patient_order', compact('data'));
+    }
+
+    
 
 
 

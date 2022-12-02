@@ -33,6 +33,7 @@ Route::get('/app_home', [UserController::class, 'showAppHomePage']);
 
 Route::get('/show_all_test', [UserController::class, 'allTest']);
 
+Route::post('/upload_test_order', [UserController::class, 'uploadTestOrder']);
 
 
 
@@ -63,6 +64,6 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::get('/students/search/{city}', [StudentController::class, 'search']);
     Route::post('/logout', [UserController::class, 'logout']);
 
-    Route::post('/upload_test_order', [UserController::class, 'uploadTestOrder']);
+    // Route::post('/upload_test_order', [UserController::class, 'uploadTestOrder']);
 });
 

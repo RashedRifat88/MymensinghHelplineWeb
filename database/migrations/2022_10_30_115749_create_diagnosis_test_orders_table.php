@@ -24,6 +24,7 @@ class CreateDiagnosisTestOrdersTable extends Migration
             $table->string('test_price_list')->nullable();
             $table->string('test_prescription')->nullable();
             $table->string('has_prescription')->nullable();
+            $table->string('date')->nullable();
 
             $table->timestamps();
         });
